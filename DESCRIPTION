@@ -1,0 +1,13 @@
+Package: partycode
+Type: Package
+Title: Easily convert party codes from one dataset to another
+Version: 0.1.0
+Author: Nicolas Bichay
+Maintainer: Nicolas Bichay <bichayni@msu.edu>
+Description: Allows you to take the party code used from one dataset and convert to another datasets coding scheme, similar to countrycode. Built with partyfacts data, and supports all included coding schemes in the partyfacts external dataset.
+License: GNU GPL3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    dplyr
+RoxygenNote: 7.1.1
